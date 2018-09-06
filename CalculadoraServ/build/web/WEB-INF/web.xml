@@ -1,0 +1,12 @@
+<web-app>
+    
+    <servlet>
+        <servlet-name>Funciones</servlet-name>
+        <servlet-class>Calculadora.Funciones</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Funciones</servlet-name>
+        <url-pattern>/Funciones</url-pattern>
+    </servlet-mapping>
+   
+</web-app>

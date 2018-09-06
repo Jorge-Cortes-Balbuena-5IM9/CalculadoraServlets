@@ -1,0 +1,47 @@
+<html>
+    
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            //if(document.getElementById("operacion").value>5){
+            //    document.getElementById("Num2").value = 0;
+            //    document.getElementById("Num2").disabled = true;
+            //}
+        </script>      
+        
+</head>
+    <body>
+        
+        
+    <center>
+        <h1>CALCULADORA</h1>
+        <h3>Por: Cortes Balbuena Jorge</h3>
+        <br><br>
+    <form   action="Funciones"   method=POST>
+        <input   name="num1"   type="text" value="0" ><br><br>
+        <input name="num2"   type=   "text" value="0" id="Num2"><br><br>
+        <SELECT name="operacion" id="operacion">
+            <option value="1" selected >+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+            <option value="5">sen</option>
+            <option value="6">cos</option>
+            <option value="7">tan</option>
+            <option value="8">log</option>
+            <option value="9">log10</option>
+            <option value="10">log1p</option>
+        </SELECT>
+        <p>En caso de usar una funcion trigonometrica o logaritmica solo llene el primer campo</p>
+        
+    
+    <br>
+    <br>
+    <input   name="Calcular"  value="Calcular" type="submit">
+    </form>
+    </center>
+    
+    </body>
+</html>
